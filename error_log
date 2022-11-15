@@ -1,0 +1,21 @@
+[29-Nov-2021 13:41:36 Africa/Cairo] PHP Fatal error:  Uncaught Illuminate\Database\Eloquent\ModelNotFoundException: No query results for model [App\Models\Client] 1 in /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:398
+Stack trace:
+#0 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\Database\Eloquent\Builder->findOrFail(1)
+#1 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1736): Illuminate\Database\Eloquent\Model->forwardCallTo(Object(Illuminate\Database\Eloquent\Builder), 'FindOrFail', Array)
+#2 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1748): Illuminate\Database\Eloquent\Model->__call('FindOrFail', Array)
+#3 /home2/elarabye/public_html/app/Providers/AppServiceProvider.php(48): Illuminate\Database\Eloquent\Model::__callStatic('FindOrFail', Array)
+#4 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents in /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 398
+[29-Nov-2021 13:41:48 Africa/Cairo] PHP Fatal error:  Uncaught Illuminate\Database\Eloquent\ModelNotFoundException: No query results for model [App\Models\Client] 1 in /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:398
+Stack trace:
+#0 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\Database\Eloquent\Builder->findOrFail(1)
+#1 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1736): Illuminate\Database\Eloquent\Model->forwardCallTo(Object(Illuminate\Database\Eloquent\Builder), 'FindOrFail', Array)
+#2 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1748): Illuminate\Database\Eloquent\Model->__call('FindOrFail', Array)
+#3 /home2/elarabye/public_html/app/Providers/AppServiceProvider.php(48): Illuminate\Database\Eloquent\Model::__callStatic('FindOrFail', Array)
+#4 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents in /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 398
+[29-Nov-2021 13:43:22 Africa/Cairo] PHP Fatal error:  Uncaught Illuminate\Database\Eloquent\ModelNotFoundException: No query results for model [App\Models\Client] 1 in /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:398
+Stack trace:
+#0 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\Database\Eloquent\Builder->findOrFail(1)
+#1 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1736): Illuminate\Database\Eloquent\Model->forwardCallTo(Object(Illuminate\Database\Eloquent\Builder), 'FindOrFail', Array)
+#2 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1748): Illuminate\Database\Eloquent\Model->__call('FindOrFail', Array)
+#3 /home2/elarabye/public_html/app/Providers/AppServiceProvider.php(48): Illuminate\Database\Eloquent\Model::__callStatic('FindOrFail', Array)
+#4 /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents in /home2/elarabye/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 398
